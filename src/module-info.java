@@ -4,5 +4,6 @@
 /**
  * 
  */
-module Calculadora {
+module ProyectoCalculadora {
+	requires java.desktop;
 }
