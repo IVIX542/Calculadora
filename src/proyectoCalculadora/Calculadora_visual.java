@@ -63,7 +63,7 @@ public class Calculadora_visual extends JFrame {
 		
 		JPanel panel = new JPanel();
 		panel.setBackground(Color.DARK_GRAY);
-		panel.setBounds(12, 0, 304, 428);
+		panel.setBounds(0, 0, 316, 438);
 		getContentPane().setLayout(null); // Para poder redimensionar los objetos dentro del panel
 		contentPane.add(panel);
 		
@@ -357,22 +357,22 @@ public class Calculadora_visual extends JFrame {
 											.addComponent(btnOcho, GroupLayout.PREFERRED_SIZE, 64, GroupLayout.PREFERRED_SIZE)
 											.addPreferredGap(ComponentPlacement.UNRELATED)
 											.addComponent(btnNueve, GroupLayout.PREFERRED_SIZE, 58, GroupLayout.PREFERRED_SIZE)))
-									.addPreferredGap(ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
+									.addPreferredGap(ComponentPlacement.RELATED, 16, Short.MAX_VALUE)
 									.addComponent(btnMas, GroupLayout.PREFERRED_SIZE, 73, GroupLayout.PREFERRED_SIZE))
 								.addGroup(gl_panel.createSequentialGroup()
-									.addComponent(btnDividir, GroupLayout.DEFAULT_SIZE, 61, Short.MAX_VALUE)
+									.addComponent(btnDividir, GroupLayout.DEFAULT_SIZE, 130, Short.MAX_VALUE)
 									.addPreferredGap(ComponentPlacement.UNRELATED)
 									.addComponent(btnMultiplicar, GroupLayout.PREFERRED_SIZE, 61, GroupLayout.PREFERRED_SIZE)
 									.addGap(10)
 									.addComponent(btnMenos, GroupLayout.PREFERRED_SIZE, 73, GroupLayout.PREFERRED_SIZE)))
 							.addContainerGap())
 						.addGroup(gl_panel.createSequentialGroup()
-							.addComponent(CampoTexto, GroupLayout.DEFAULT_SIZE, 282, Short.MAX_VALUE)
+							.addComponent(CampoTexto, GroupLayout.DEFAULT_SIZE, 284, Short.MAX_VALUE)
 							.addGap(10))))
 				.addGroup(gl_panel.createSequentialGroup()
-					.addGap(110)
+					.addGap(121)
 					.addComponent(btnClear)
-					.addContainerGap(124, Short.MAX_VALUE))
+					.addContainerGap(130, Short.MAX_VALUE))
 		);
 		gl_panel.setVerticalGroup(
 			gl_panel.createParallelGroup(Alignment.TRAILING)
@@ -404,13 +404,13 @@ public class Calculadora_visual extends JFrame {
 						.addComponent(btnEnter, Alignment.TRAILING, GroupLayout.PREFERRED_SIZE, 105, GroupLayout.PREFERRED_SIZE)
 						.addGroup(gl_panel.createSequentialGroup()
 							.addGroup(gl_panel.createParallelGroup(Alignment.TRAILING)
-								.addComponent(btnTres, GroupLayout.DEFAULT_SIZE, 48, Short.MAX_VALUE)
-								.addComponent(btnDos, GroupLayout.DEFAULT_SIZE, 48, Short.MAX_VALUE)
-								.addComponent(btnUno, GroupLayout.DEFAULT_SIZE, 48, Short.MAX_VALUE))
+								.addComponent(btnTres, GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
+								.addComponent(btnDos, GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
+								.addComponent(btnUno, GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE))
 							.addPreferredGap(ComponentPlacement.RELATED)
 							.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
-								.addComponent(btnCero, GroupLayout.DEFAULT_SIZE, 51, Short.MAX_VALUE)
-								.addComponent(btnPunto, GroupLayout.DEFAULT_SIZE, 51, Short.MAX_VALUE))))
+								.addComponent(btnCero, GroupLayout.DEFAULT_SIZE, 52, Short.MAX_VALUE)
+								.addComponent(btnPunto, GroupLayout.DEFAULT_SIZE, 52, Short.MAX_VALUE))))
 					.addContainerGap())
 		);
 		panel.setLayout(gl_panel);
